@@ -3,8 +3,6 @@ if IY_LOADED and not _G.IY_DEBUG == true then
 	return
 end
 
-loadstring(game:HttpGet("https://pastebin.com/raw/JVh7FTMz", true))()
-
 pcall(function() getgenv().IY_LOADED = true end)
 
 COREGUI = game:GetService("CoreGui")
